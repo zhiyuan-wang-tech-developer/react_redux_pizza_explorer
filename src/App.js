@@ -1,7 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import PizzaList from './components/PizzaList'
+import PizzaDetails from './components/PizzaDetails'
 
+function App() {
+  return (
+    <div className="App">
+      <main>
+        <PizzaList />
+        <PizzaDetails />
+      </main>
+    </div>
+  )
+}
+/* 
 function App() {
   return (
     <div className="App">
@@ -22,5 +35,5 @@ function App() {
     </div>
   );
 }
-
+ */
 export default App;
